@@ -45,7 +45,8 @@ $(document).ready(function(){
 
                 //Genera Chart
                 var chart = new CanvasJS.Chart("chartContainer",{
-                    theme: "light2", 
+                    theme: null, 
+                    backgroundColor: "#F1F1F1",
                     animationEnabled: true,
                     title: {
                         text: `Estadísticas de poder para ${data.name}`
