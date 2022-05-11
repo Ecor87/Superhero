@@ -49,13 +49,15 @@ $(document).ready(function(){
                     backgroundColor: "#F1F1F1",
                     animationEnabled: true,
                     title: {
-                        text: `Estadísticas de poder para ${data.name}`
+                        text: `Estadísticas de poder para ${data.name}`,
+                        fontWeight: "bold",
+                        fontSize: 30
                     },
                     data: [{
                         type: "pie",
                         startAngle: 25,
                         toolTipContent: "<b>{label}</b>: {y}%",
-                        // showInLegend: "false",
+                        // showInLegend: "true",
                         // legendText: "{label}",
                         indexLabelFontSize: 16,
                         indexLabel: "{label} - {y}",
