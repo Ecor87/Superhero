@@ -4,3 +4,20 @@ body{
 form{
     width: 50%;
 }
+#tipID{
+    font-size: small;
+}
+#heroRow{
+    display: flex;
+    align-items: center;
+}
+#heroImg{
+    width: 34%;
+}
+#heroImg img{
+    border-radius: 8px;
+    border: dimgray solid 2px;
+}
+#heroBio{
+    width: 64%;
+}

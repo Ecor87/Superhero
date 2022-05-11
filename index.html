@@ -27,14 +27,16 @@
         <label class="col-12">Ingresa el número del SuperHero a buscar</label>
         <input  class="col-12 form-control my-2"type="text" id="inputID">
         <button class="btn btn-info btn-block my-2">Buscar</button>
-        <p>Puedes encontrar las IDs por personaje <a href="https://www.superheroapi.com/ids.html">aquí</a></p>
+        <p id="tipID">Puedes encontrar las IDs por personaje <a href="https://www.superheroapi.com/ids.html">aquí</a></p>
     </form>
     <main>
         <div class="container">
-            <div class="row my-5">
-                <div class="col-4 col-md-2" id="heroImg">.</div>
-                <div class="col-8 col-md-4" id="heroBio">.</div>
-                <div class="col-12 col-md-6" id="chartContainer">.</div>
+            <div class="row my-5" >
+                <div class="col-12 col-md-7 py-3" id="heroRow">
+                    <div class="pe-3" id="heroImg"></div>
+                    <div class="ps-3" id="heroBio"></div>
+                </div>
+                <div class="col-12 col-md-5" id="chartContainer"></div>
             </div>
         </div>
     </main>

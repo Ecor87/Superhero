@@ -23,7 +23,7 @@ $(document).ready(function(){
 
                 //Envía datos Bio a DOM
                 $('#heroBio').html(`
-                <h6><b> Nombre: </b>${data.name} </h6>
+                <h3 class="py-3">${data.name}</h3>
                 <p><b> Conexiones: </b>${data.connections["group-affiliation"]}. <br> ${data.connections.relatives}.</p>
                 <p><b> Publicado por: </b>${data.biography.publisher} </p>
                 <p><b> Primera aparición: </b>${data.biography["first-appearance"]} </p>    <!--**Se usan [] porque jQuery no admite guiones en variables con notación de punto**-->
