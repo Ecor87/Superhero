@@ -1,5 +1,14 @@
+@keyframes pulsate {
+    0% {transform: scale(100%);}
+    50% {transform: scale(105%);}
+    100% {transform: scale(100%);}
+}
+
 body{
     background-color: #f1f1f1;
+}
+header img{
+    animation: pulsate 5s linear 0s infinite;
 }
 form{
     width: 50%;
@@ -17,6 +26,15 @@ form{
 #heroImg img{
     border-radius: 8px;
     border: dimgray solid 2px;
+    transform: scale(100%);
+    transition: transform 250ms ease-in;
+
+}
+#heroImg img:hover{
+    border-radius: 8px;
+    border: dimgray solid 2px;
+    transform: scale(120%);
+    transition: transform 250ms ease-in;
 }
 #heroBio{
     width: 64%;

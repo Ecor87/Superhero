@@ -20,7 +20,7 @@ $(document).ready(function(){
 
                 //Envía imágen de API a DOM
                 $('#heroImg').html( `<img src="${data.image.url}" alt="" width=100% height=auto></img>`);
-
+                
                 //Envía datos Bio a DOM
                 $('#heroBio').html(`
                 <h3 class="py-3">${data.name}</h3>
