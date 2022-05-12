@@ -27,8 +27,8 @@ $(document).ready(function(){
                 <p><b> Conexiones: </b>${data.connections["group-affiliation"]}. <br> ${data.connections.relatives}.</p>
                 <p><b> Publicado por: </b>${data.biography.publisher} </p>
                 <p><b> Primera aparición: </b>${data.biography["first-appearance"]} </p>    <!--**Se usan [] porque jQuery no admite guiones en variables con notación de punto**-->
-                <p><b> Altura: </b>${data.appearance.height} </p>
-                <p><b> Peso: </b>${data.appearance.weight} </p>
+                <p><b> Altura: </b>${data.appearance.height[0]} / ${data.appearance.height[1]} </p>
+                <p><b> Peso: </b>${data.appearance.weight[0]} / ${data.appearance.weight[1]} </p>
                 <p><b> Alias: </b>${data.biography.aliases} </p>
                 `);
 
